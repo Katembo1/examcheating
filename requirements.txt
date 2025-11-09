@@ -1,0 +1,39 @@
+# Flask and Web Framework
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Flask-SocketIO
+
+# Computer Vision and Object Detection
+opencv-python
+opencv-contrib-python
+roboflow
+inference
+inference-sdk
+supervision
+Pillow
+
+# Video Processing
+imutils
+
+# Database
+SQLAlchemy
+
+# Authentication and Security
+Werkzeug
+email-validator
+python-dotenv
+
+# Email Notifications
+Flask-Mail
+
+# Utilities
+python-dateutil
+pytz
+
+# Async Support
+eventlet
+
+# API and Requests
+requests

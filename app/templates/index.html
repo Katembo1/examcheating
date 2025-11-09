@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome - Smart Surveillance System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row min-vh-100 align-items-center">
+        <div class="col-lg-8 mx-auto text-center">
+            <i class="fas fa-shield-alt fa-5x text-primary mb-4"></i>
+            <h1 class="display-4 fw-bold mb-4">Smart Surveillance System</h1>
+            <p class="lead mb-5">
+                AI-powered intelligent surveillance for enhanced security monitoring.
+                Real-time object detection, automated alerts, and comprehensive event management.
+            </p>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card border-primary h-100">
+                        <div class="card-body">
+                            <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">AI Detection</h5>
+                            <p class="card-text">Advanced object detection using Roboflow API</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-success h-100">
+                        <div class="card-body">
+                            <i class="fas fa-bell fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Real-time Alerts</h5>
+                            <p class="card-text">Instant notifications for detected events</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-info h-100">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">Analytics</h5>
+                            <p class="card-text">Comprehensive event logs and statistics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                <a href="{{ url_for('auth.login') }}" class="btn btn-primary btn-lg px-5">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+                <a href="{{ url_for('auth.register') }}" class="btn btn-outline-primary btn-lg px-5">
+                    <i class="fas fa-user-plus"></i> Register
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
