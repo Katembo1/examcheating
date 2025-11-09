@@ -26,14 +26,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Flask
-instance/
-.webassets-cache
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
 
 # Logs
 logs/
