@@ -40,3 +40,6 @@ requests
 
 # Ngrok for Public URL (Google Colab)
 pyngrok
+
+# Production Server
+gunicorn
