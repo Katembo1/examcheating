@@ -8,7 +8,7 @@ from app.models.user import User
 from app.models.event import Event
 
 # Load environment variables
-load_dotenv()
+load_dotenv('env.env')
 
 app = create_app()
 
