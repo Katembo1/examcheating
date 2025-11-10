@@ -37,3 +37,6 @@ eventlet
 
 # API and Requests
 requests
+
+# Ngrok for Public URL (Google Colab)
+pyngrok
